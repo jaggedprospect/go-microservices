@@ -2,10 +2,11 @@ package handlers
 
 import (
 	"log"
-	"main/product-api/data"
 	"net/http"
 	"regexp"
 	"strconv"
+
+	"github.com/jaggedprospect/go-microservices/product-api/data"
 )
 
 type Products struct {
