@@ -3,11 +3,12 @@ package main
 import (
 	"context"
 	"log"
-	"main/product-api/handlers"
 	"net/http"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/jaggedprospect/go-microservices/product-api/handlers"
 )
 
 func main() {
