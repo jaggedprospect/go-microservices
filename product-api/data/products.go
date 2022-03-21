@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/go-playground/validator"
+	"github.com/go-playground/validator/v10"
 )
 
 // Product defines the structure for an API product.
